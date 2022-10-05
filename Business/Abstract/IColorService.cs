@@ -1,0 +1,18 @@
+﻿using Entites.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Color = Entites.Concrete.Color;
+
+namespace Business.Abstract
+{
+    public interface IColorService
+    {
+        List<Color> GetAll();
+        List<Color> GetById(int colorId);
+        void Add(Color color);
+        void Update(Color color);
+        void Delete(int id);
+         
+   }
+}

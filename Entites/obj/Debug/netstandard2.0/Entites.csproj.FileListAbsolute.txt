@@ -1,0 +1,13 @@
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\bin\Debug\netstandard2.0\Entites.deps.json
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\bin\Debug\netstandard2.0\Entites.dll
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\bin\Debug\netstandard2.0\Entites.pdb
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\bin\Debug\netstandard2.0\Core.dll
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.csprojAssemblyReference.cache
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.AssemblyInfoInputs.cache
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.AssemblyInfo.cs
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.csproj.CoreCompileInputs.cache
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.csproj.CopyComplete
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.dll
+D:\Users\Ozan\Desktop\ozztech c#\project\ReCapProject\Entites\obj\Debug\netstandard2.0\Entites.pdb
