@@ -32,27 +32,23 @@ namespace WebAPI
         {
 
             services.AddControllers();
-            services.AddSingleton<ICarService, CarManager>();//Eğer birisi ICarService isterse ona CarManager da gönder 
-            services.AddSingleton<ICarDal, EfCarDal>();//Eğer Birisi ICarDal isterse ona EfCarDal ı da ver
+            //services.AddSingleton<ICarService, CarManager>();//Eğer birisi ICarService isterse ona CarManager da gönder 
+            //services.AddSingleton<ICarDal, EfCarDal>();//Eğer Birisi ICarDal isterse ona EfCarDal ı da ver
 
-            services.AddSingleton<IBrandService, BrandManager>();
-            services.AddSingleton<IBrandDal, EfBrandDal>();
+            //services.AddSingleton<IBrandService, BrandManager>();
+            //services.AddSingleton<IBrandDal, EfBrandDal>();
 
-            services.AddSingleton<IColorService, ColorManager>();
-            services.AddSingleton<IColorDal, EfColorDal>();
+            //services.AddSingleton<IColorService, ColorManager>();
+            //services.AddSingleton<IColorDal, EfColorDal>();
 
-            services.AddSingleton<IUserService, UserManager>();
-            services.AddSingleton<IUserDal, EfUserDal>();
+            //services.AddSingleton<IUserService, UserManager>();
+            //services.AddSingleton<IUserDal, EfUserDal>();
 
-            services.AddSingleton<IRentalService, RentalManager>();
-            services.AddSingleton<IRentalDal, EfRentalDal>();
+            //services.AddSingleton<IRentalService, RentalManager>();
+            //services.AddSingleton<IRentalDal, EfRentalDal>();
 
-            services.AddSingleton<ICustomerService, CustomerManager>();
-            services.AddSingleton<ICustomerDal, EfCustomerDal>();
-
-
-
-
+            //services.AddSingleton<ICustomerService, CustomerManager>();
+            //services.AddSingleton<ICustomerDal, EfCustomerDal>();
 
 
 

@@ -95,3 +95,8 @@ D:\Users\Ozan\Desktop\ReCapProject\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebA
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
