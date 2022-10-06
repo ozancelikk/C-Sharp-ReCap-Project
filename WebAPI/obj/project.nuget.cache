@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u/xqvryvLa8i7lq2ncEpqhPGhMW4ytotpwg8ZnQgO0P9HDUw0CcmlWTn2vv5QyLEuu6MeoVLTfX70infB2wQ/w==",
+  "dgSpecHash": "SnCy9mnyb6tMmnlDRYI1jGHP6GUmbO0ByQQs98JsZKrn1ughB1yVyCFPX6ukBWrky/10zyh7cVNvRrX7bkLFAw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "D:\\Users\\Ozan\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore\\2.0.0\\microsoft.entityframeworkcore.2.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.0.0\\microsoft.entityframeworkcore.relational.2.0.0.nupkg.sha512",

@@ -34,11 +34,6 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-        public IResult Delete()
-        {
-            throw new NotImplementedException();
-        }
-
         public IDataResult<List<User>> GetAll()
         {
             return new SuccessDataResult<List<User>>(_userDal.GetAll());
@@ -53,11 +48,6 @@ namespace Business.Concrete
         {
             _userDal.Update(user);
             return new SuccessResult();
-        }
-
-        public IResult Update()
-        {
-            throw new NotImplementedException();
         }
     }
 }

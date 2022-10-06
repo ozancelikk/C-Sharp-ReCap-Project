@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+CFEOHKEftBoEKUfu/ZGsZYzwESxAb5jnHNX8+1sWsJjPIIe9vQjHu6FhOD+Iis44gozR9ml3YHM5UfSw2zPhQ==",
+  "dgSpecHash": "dYffHZ1MQ6wVm4Ny7Bu5qbUc3bfNesameJE9Z4AB/bRO3aSd33fsYXZybq6ihLyKRuvdsyBHQspT7TWg9LKlUA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
+    "D:\\Users\\Ozan\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore\\2.0.0\\microsoft.entityframeworkcore.2.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.0.0\\microsoft.entityframeworkcore.relational.2.0.0.nupkg.sha512",

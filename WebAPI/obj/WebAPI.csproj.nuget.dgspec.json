@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
+    "D:\\Users\\Ozan\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,6 +107,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -132,14 +136,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,11 +160,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj"
               }
             }
           }
@@ -214,14 +218,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj",
         "projectName": "Entites",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -238,8 +242,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }
@@ -275,14 +279,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\WebAPI\\WebAPI.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\WebAPI\\WebAPI.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\WebAPI\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -299,17 +303,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj"
+              "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj"
               }
             }
           }

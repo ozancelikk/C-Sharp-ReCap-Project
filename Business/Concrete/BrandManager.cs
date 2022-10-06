@@ -1,4 +1,7 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Etilities.Results;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entites.Concrete;
 using System;
@@ -16,31 +19,36 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public void Add(Brand brand)
+        public IResult Add(Brand brand)
         {
+            if (brand.BrandName.Length<2)
+            {
+                return new ErrorResult(Messages.BrandNameInvalid);
+            }
             _brandDal.Add(brand);
-            Console.WriteLine("Marka Eklendi");
+            return new SuccessResult(Messages.BrandAdded);
         }
 
-        public void Delete(int id)
+        public IResult Delete(Brand brand)
         {
-            var brand = _brandDal.Get(b => b.BrandId == id);
             _brandDal.Delete(brand);
+            return new SuccessResult(Messages.BrandDeleted);
         }
 
-        public List<Brand> GetAll()
+        public IDataResult<List<Brand>> GetAll()
         {
-            return _brandDal.GetAll();
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll());
         }
 
-        public List<Brand> GetById(int brandId)
+        public IDataResult<List<Brand>> GetById(int brandId)
         {
-            return _brandDal.GetAll(b=>b.BrandId==brandId);
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(b=>b.BrandId==brandId));
         }
 
-        public void Update(Brand brand)
+        public IResult Update(Brand brand)
         {
             _brandDal.Update(brand);
+            return new SuccessResult(Messages.BrandUpdated);
         }
     }
 }

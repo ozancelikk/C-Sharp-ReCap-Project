@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qVNn5oV0wnww25yFzrPGT6yTj/Tab7YkL+odHJVstS+tpXatTnIEhMF62UbFauxwBM2JQud5Yn8MgpkqvCo4gA==",
+  "dgSpecHash": "l+23vYTp3O8NFSUcDN3wTwrzzgjunhw8o2FSaeXqFpS3Pyqfv92xmqLN+UpdRWjNXeCO/GYSp1z25eF5rsc8jw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
+    "D:\\Users\\Ozan\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
+    "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore\\2.0.0\\microsoft.entityframeworkcore.2.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.0.0\\microsoft.entityframeworkcore.design.2.0.0.nupkg.sha512",
@@ -51,14 +53,15 @@
     "D:\\Users\\Ozan\\.nuget\\packages\\system.reflection.typeextensions\\4.1.0\\system.reflection.typeextensions.4.1.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.resources.resourcemanager\\4.0.1\\system.resources.resourcemanager.4.0.1.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "D:\\Users\\Ozan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "D:\\Users\\Ozan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.security.accesscontrol\\4.4.0\\system.security.accesscontrol.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.security.principal.windows\\4.4.0\\system.security.principal.windows.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
-    "D:\\Users\\Ozan\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "D:\\Users\\Ozan\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "D:\\Users\\Ozan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.4.0": {
         "type": "package",
         "compile": {
@@ -706,6 +715,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "5.0.0",
           "Microsoft.EntityFrameworkCore": "2.0.0"
         },
         "compile": {
@@ -748,6 +758,27 @@
     }
   },
   "libraries": {
+    "Autofac/5.0.0": {
+      "sha512": "U1aCHUMXuG7DDJ5JmTXF2kInXpad3Fuow+voSXEVunDHW4OkD8GDWJjleHpJPanpP+3dUQYLAM9R2lftGiQSbA==",
+      "type": "package",
+      "path": "autofac/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.5.0.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.dll",
+        "lib/net461/Autofac.pdb",
+        "lib/net461/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Microsoft.CSharp/4.4.0": {
       "sha512": "vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
       "type": "package",
@@ -2890,11 +2921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\ConsoleUI\\obj\\",
+      "outputPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2911,17 +2942,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Business\\Business.csproj"
+            "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Business\\Business.csproj"
             },
-            "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj": {
-              "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Core\\Core.csproj"
+            "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Core\\Core.csproj"
             },
-            "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj": {
-              "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\ReCapProject\\Entites\\Entites.csproj"
+            "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj": {
+              "projectPath": "D:\\Users\\Ozan\\Desktop\\ReCapProject\\Entites\\Entites.csproj"
             }
           }
         }
