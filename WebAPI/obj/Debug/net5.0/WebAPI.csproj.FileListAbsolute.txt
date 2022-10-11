@@ -100,3 +100,6 @@ D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.Dynami
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
