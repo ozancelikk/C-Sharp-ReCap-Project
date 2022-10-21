@@ -41,7 +41,12 @@ namespace Business.Constants
         public static string RentalListedByNotRentedCars = "Kiralanmayan Araçlara Göre Listelenen Kiralama";
         public static string RentalListedByRentedCars = " Kiralık Araçlara Göre Listelenen Kiralama";
         public static string CarIsAlreadyRented = "Bu Araç Zaten Kiraya Verilmiş";
-
-        public static string ColorNameInvalid { get; internal set; }
+        public static string ColorNameInvalid = "Renk Adı Geçeriz";
+        public static string UserNotFound = "Kullanıcı  bulunamadı";
+        public static string PasswordError="Şifre Hatalı";
+        public static string SuccesFulLogin="Sisteme giriş başarılı";
+        public static string UserAlreadyExists="Bu kullanıcı zaten mevcut";
+        public static string UserRegistred="Kullanıcı sisteme kayıt edildi";
+        public static string AccessTokenCreated="Access Token Oluşturuldu";
     }
 }

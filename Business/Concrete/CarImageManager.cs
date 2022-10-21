@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Core.Etilities.Results;
+using Core.Utilities.Business;
 using Core.Utilities.Helpers.FileHelper;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -21,34 +23,74 @@ namespace Business.Concrete
             _filehelper = fileHelper;
         }
         
-        public IResult Add(CarImage carImage)
+        public IResult Add(List<IFormFile> formFile, CarImage carImage)
         {
-            throw new NotImplementedException();
+            IResult result = BusinessRules.Run(CheckIfCarImageLimitExcended(carImage.CarId));
+            if (result!=null)
+            {
+                return result;
+            }
+            carImage.ImagePath = _filehelper.Upload(formFile, @"wwwroot\\Uploads\\Images\\");
+            carImage.Date = DateTime.Now;
+
+            _carImageDal.Add(carImage);
+            return new SuccessResult(Messages.CarImageAdded);
         }
 
         public IDataResult<List<CarImage>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll());
         }
 
         public IDataResult<List<CarImage>> GetByCarId(int carId)
         {
-            throw new NotImplementedException();
+            var result = BusinessRules.Run(CheckIfCarImageAdded(carId));
+            if (result!=null)
+            {
+                return new ErrorDataResult<List<CarImage>>(GetDefaultImage(carId).Data);
+            }
+            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(c => c.CarId == carId));
         }
 
-        public IDataResult<CarImage> GetById(int carImageId)
+        public IDataResult<CarImage> GetById(int Id)
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<CarImage>(_carImageDal.Get(c => c.Id == Id));
         }
 
-        public IResult update(List<IFormFile> formfile, CarImage carImage)
+        public IResult Delete( CarImage carImage)
         {
-            throw new NotImplementedException();
+            _filehelper.Delete(@"wwwroot\\Uploads||Images\\" + carImage.ImagePath);
+            _carImageDal.Delete(carImage);
+            return new SuccessResult(Messages.CarImageDeleted);
         }
 
         public IResult Update(List<IFormFile> file, CarImage carImage)
         {
             throw new NotImplementedException();
         }
+        private IResult CheckIfCarImageAdded(int carId)
+        {
+            var result = _carImageDal.GetAll(c => c.CarId == carId);
+            if (result.Count==0)
+            {
+                return new ErrorResult();
+            }
+            return new SuccessResult();
+        }
+        private IDataResult<List<CarImage>>GetDefaultImage(int carID)
+        {
+            List<CarImage> car = new List<CarImage> { new CarImage { CarId = carID, Date = null, ImagePath = "Default.png" } };
+            return new SuccessDataResult<List<CarImage>>(car);
+        }
+        private IResult CheckIfCarImageLimitExcended(int carId)
+        {
+            var result = _carImageDal.GetAll(c => c.CarId == carId);
+            if (result.Count>5)
+            {
+                return new ErrorResult(Messages.CarImageLimit);
+            }
+            return new SuccessResult();
+        }
     }
+    
 }

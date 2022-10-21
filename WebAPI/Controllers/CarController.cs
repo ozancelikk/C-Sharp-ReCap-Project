@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entites.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,17 +12,18 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CarsController : ControllerBase
+    public class CarController : ControllerBase
     {
         //Loosely coupled bağımlı ama soyut bağımlı demek.
         //Naming Convention.
         //IoC Container -- Inversion of Control
         ICarService _carService;
-        public CarsController(ICarService carService)
+        public CarController(ICarService carService)
         {
             _carService = carService;
         }
         [HttpGet("getall")]
+        [Authorize(Roles ="Product.List")]
         public IActionResult GetAll()
         {
             var result = _carService.GetAll();

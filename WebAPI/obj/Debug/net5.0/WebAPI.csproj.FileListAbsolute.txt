@@ -103,3 +103,17 @@ D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\Ozan\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
