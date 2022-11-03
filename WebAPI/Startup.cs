@@ -19,6 +19,9 @@ using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 using Core.Utilities.Security.Jwt;
 using Core.Utilities.Security.Encyption;
+using Core.Utilities.IoC;
+using Core.Extensions;
+using Core.DependencyResolvers;
 
 namespace WebAPI
 {
@@ -56,6 +59,9 @@ namespace WebAPI
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                 };
+            });
+            services.AddDependencyResolvers(new ICoreModule[]{
+                new CoreModule()
             });
 
             services.AddSwaggerGen(c =>

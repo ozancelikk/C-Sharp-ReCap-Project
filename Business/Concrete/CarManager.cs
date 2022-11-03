@@ -12,6 +12,8 @@ using Core.Etilities.Results;
 using Core.Aspects.Autofac.Validation;
 using Business.ValidationRules.FluentValidation;
 using Core.CrossCuttingConcerns.Validation;
+using Business.BusinessAspects.Autofac;
+using Core.Aspects.Autofac.Caching;
 
 namespace Business.Concrete
 {
@@ -23,6 +25,7 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
+        [SecuredOperation("car.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
@@ -41,7 +44,7 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarsListed);
         }
-
+        [CacheAspect]
         public IDataResult<Car> GetById(int carid)
         {
             return new SuccessDataResult<Car>( _carDal.Get(c => c.CarId==carid));
@@ -72,6 +75,16 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == colorId));
         }
-
+        [ValidationAspect(typeof(CarValidator))]
+        [CacheRemoveAspect("get")]
+        public IResult Update(Car car)
+        {
+            var result = _carDal.GetAll(c => c.BrandId == car.BrandId).Count;
+            if (result>=10)
+            {
+                return new ErrorResult(Messages.CarCountOfCategoryError);
+            }
+            throw new NotImplementedException();
+        }
     }
 }

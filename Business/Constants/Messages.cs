@@ -1,6 +1,7 @@
 ﻿using Entites.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -48,5 +49,7 @@ namespace Business.Constants
         public static string UserAlreadyExists="Bu kullanıcı zaten mevcut";
         public static string UserRegistred="Kullanıcı sisteme kayıt edildi";
         public static string AccessTokenCreated="Access Token Oluşturuldu";
+        public static string AuthorizationDenied= "Yetkiniz yok";
+        public static string CarCountOfCategoryError="Bu kategoride en fazla 10 Araç olabilir";
     }
 }
